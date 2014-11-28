@@ -1,4 +1,4 @@
-Garb [![Build Status](https://secure.travis-ci.org/Sija/garb.png)](http://travis-ci.org/Sija/garb)
+Garb [![Gem Version](https://badge.fury.io/rb/garb.png)](http://badge.fury.io/rb/garb) [![Build Status](https://secure.travis-ci.org/Sija/garb.png)](http://travis-ci.org/Sija/garb)
 ====
 
   http://github.com/Sija/garb
@@ -167,15 +167,13 @@ Requirements for Testing
 Install
 -------
 
-    From git:
-    
-    `git clone git://github.com/Sija/garb.git`
-    `cd garb && rake install`
-    
-    OR with bundler:
-    
-    gem 'garb', :git => 'git://github.com/Sija/garb.git'
-    `bundle install`
+Add this line to your application’s Gemfile:
+
+    gem 'garb'
+
+Then run:
+
+    bundle install
 
 Contributors
 ------------
@@ -187,6 +185,7 @@ Contributors
   * Nick Plante
   * James Cook
   * Chris Gunther
+  * Sijawusz Pur Rahnama
 
 License
 -------
